@@ -5,7 +5,7 @@ import base64
 import io
 
 # MongoDB connection
-client = MongoClient('mongodb+srv://hari:root@cluster0.urop7.mongodb.net/')
+client = MongoClient('mongodb+srv://mugeshtest:root@cluster0.hm0gn.mongodb.net/mydb?retryWrites=true&w=majority&ssl=true')
 db = client['atm']
 users_collection = db['users']
 transactions_collection = db['transactions']
